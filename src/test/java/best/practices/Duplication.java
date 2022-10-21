@@ -87,5 +87,6 @@ public class Duplication {
         //Telling the system where to find chromedriver. On Windows you also need to add .exe
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver");
         return new ChromeDriver();
+        //modified
     }
 }
